@@ -1,0 +1,13 @@
+查询HTTP协议请求格式 编写TCP客户端程序
+向百度服务器发起请求，接收网页数据并保存为html文件
+
+查询函数gethostbyname() 将域名解析为IP地址
+
+使用socket工具测试，使用80端口连接百度服务器IP（www.baidu.com）
+
+GET请求格式
+GET / HTTP/1.1
+Host: xxxx
+User-Agent:meson
+Accept: */*
+Connection:close

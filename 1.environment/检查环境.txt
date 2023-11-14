@@ -1,0 +1,32 @@
+搭建好虚拟机中的Ubuntu_Linux客户机后 检查以下环境
+
+编译环境
+	键入指令"gcc -v"查看版本号
+	正常显示版本信息即可
+
+网络环境
+	键入指令"ping 8.8.8.8"		能够通信 说明系统拥有外部网络访问能力
+	键入指令"ping www.baidu.com"	能够通信 说明DNS(域名解析服务)正常
+
+VMware Tools环境
+	VMware Tools工具环境正常,那么我们能够进行的操作包括但不限于:
+		Windows Linux文本复制粘贴
+		Ubuntu-Linux自动适应VMware
+		开启共享目录 -> 为Windows和Linux共享一个目录(文件夹)
+	重装VMware Tools
+	连接linux.iso光盘映像文件 获取VMware Tools压缩包
+	解压缩，进入目录，运行可执行文件（需要超级用户权限）
+	按照提示步骤选择重新安装的策略
+	重装完成后 重启操作系统 reboot
+
+
+代码编写\项目阅读工具:SourceInsight
+远程终端访问工具:SecureCRT
+远程系统文件传输工具:WinSCP
+网络编程调试工具:IPOP.exe \ SocketTool.exe
+
+sudo apt-get update
+更新软件列表
+
+
+
