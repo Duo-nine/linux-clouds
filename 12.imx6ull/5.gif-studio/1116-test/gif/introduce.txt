@@ -1,0 +1,8 @@
+1、使用giflib-5.2.1库，将gif图片显示在LCD屏中，使用提供的测试图test.gif
+(1)	要求使用编译参数-Wall -Werror；
+(2)	显示动态图时要求背景颜色为黑色。
+参考链接:  https://cloud.tencent.com/developer/article/1932813
+
+
+
+gif库压缩包在Linux虚拟机中：/home/dlinux/libs
